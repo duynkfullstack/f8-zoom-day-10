@@ -1,0 +1,28 @@
+.wrapper {
+    min-width: 600px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper-content {
+    display: flex;
+    gap: 20px;
+}
+
+.wrapper-content li {
+    list-style: none;
+}
+
+.wrapper-content li a {
+    text-decoration: none;
+    padding: 14px 16px;
+    background-color: aquamarine;
+    transition: background-color ease 0.4s;
+    border-radius: 6px;
+}
+
+.wrapper-content li:hover a {
+    background-color: aqua;
+}
