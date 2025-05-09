@@ -140,13 +140,26 @@ li {
     border-bottom: 1px solid #0000000d;
 }
 
+
+.box-icon-search label {
+    width: 28px;
+    display: inline-block;
+}
+
+#check-box:checked ~ .sub-search {
+    visibility: visible;
+    opacity: 1;
+}
+
 .sub-search {
-    display: none;
     position: absolute;
     top: 25px;
     right: 16px;
     min-width: 270px;
     background-color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: all ease 0.3s;
 }
 
 .sub-search input,
@@ -182,6 +195,10 @@ li {
     cursor: pointer;
 }
 
+.header .icon i {
+    padding: 6px;
+}
+
 .box-icon-search::before {
     content: "";
     height: 16px;
@@ -193,9 +210,9 @@ li {
     right: 0px;
 }
 
-.icon .box-icon-search:hover .sub-search {
+/* .icon .box-icon-search:hover .sub-search {
     display: block;
-}
+} */
 
 .header-content {
     flex-grow: 1;
