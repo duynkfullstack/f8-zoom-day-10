@@ -1,0 +1,120 @@
+@media (max-width: 1199.98px) {
+    .nav > li > a {
+        font-size: 1.3rem;
+    }
+
+    .header-wrapper .container {
+        width: 90%;
+    }
+    .header-wrapper .header {
+        gap: 20px;
+    }
+    .nav > li > a {
+        padding: 12px 10px;
+    }
+
+    .content {
+        width: 90%;
+    }
+    .footer {
+        width: 90%;
+        padding: 80px 10px;
+        flex-wrap: nowrap;
+    }
+    .footer .footer-logo .logo {
+        max-width: 100%;
+        width: 42%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 991.89px) {
+    .header-wrapper .container {
+        width: 100%;
+    }
+    .header-wrapper .header {
+        width: 750px;
+        margin: auto;
+        padding: 40px 24px 0px 24px;
+    }
+
+    .header-wrapper .header .nav {
+        display: none;
+    }
+
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 750px;
+        padding: 0 24px;
+    }
+
+    .sidebar .form .btn {
+        flex-grow: 0;
+    }
+
+    .sidebar {
+        width: 50%;
+    }
+
+    .footer {
+        width: 720px;
+        flex-wrap: wrap;
+    }
+
+    .footer .footer-list {
+        width: 25%;
+    }
+
+    /* .scroll-top {
+        display: none;
+    } */
+
+    .footer .footer-logo .logo {
+        max-width: 100%;
+        width: 23%;
+    }
+}
+
+/* Mobile */
+@media (max-width: 767.89px) {
+    .header-wrapper .container {
+        width: 100%;
+    }
+    .header-wrapper .header {
+        /* max-width: 767.89px; */
+        width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .wrapper-footer:not(h3) {
+        padding: 20px 0;
+    }
+
+    .footer {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px 25px;
+    }
+
+    .footer .footer-logo .logo {
+        max-width: 100%;
+        width: 24%;
+    }
+
+    .footer .footer-list {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+}
